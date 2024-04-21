@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;    
+}
+
+main{
+    display: flex;
+    height: 100vh;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    border: 1px rgb(218, 218, 218) solid;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-bottom: 1px rgb(218, 218, 218) solid;
+    padding: 1em;
+}
+
+.iconp{
+    display: flex;
+    align-items: center;
+    padding-left: 5em;
+}
+
+.newms{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.button{
+        padding: 10px; /*espacio alrededor texto*/
+        padding-right: 40px;
+        padding-left: 40px;
+        background-color: #A491D2;
+        color: #ffffff; /*color texto*/ 
+        text-align: center;   
+}
+
+.elements{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-top: 1px rgb(218, 218, 218) solid;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hands{
+    background-color: #A491D2;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ntwk{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
